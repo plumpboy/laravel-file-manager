@@ -1,0 +1,23 @@
+{
+    "name": "plumpboy/file-manager",
+    "description": "This is a package for manage files.",
+    "authors": [
+        {
+            "name": "Pham Tri Trung",
+            "email": "phamtritrung@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PlumpBoy\\FileManager\\FileManagerServiceProvider"
+            ]
+        },
+        "aliases": {
+            "FileManager": "PlumpBoy\\FileManager\\Facade"
+        }
+    },
+}
